@@ -26,8 +26,7 @@ df[['day', 'hour']].head()
 # %%
 (
     df.groupby(['Vendor', 'day', 'hour'])
-    .count()
-    ['Vendor']
+    .count()['VendorID']
 )
 
 # %%
